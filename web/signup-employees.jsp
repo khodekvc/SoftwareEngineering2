@@ -37,7 +37,7 @@
       <p>Become part of our team!</p>
       
       <div class="form">
-      <form action="#" method="POST">
+      <form action="SignUpEmployeeServlet" method="POST">
 
         
         <div class="form-row">
@@ -66,10 +66,10 @@
         <div class="radio">
           <label>Choose Role*</label>
           <div class="radio-group">
-            <input type="radio" id="clinicians" name="role" value="Clinicians" required>
+            <input type="radio" id="clinicians" name="role" value="clinician" required>
             <label for="clinicians">Clinicians</label>
-            <input type="radio" id="fdeskstaff" name="role" value="Frontdesk Staff" required>
-            <label for="fdeskstaff">Frontdesk Staff</label>
+            <input type="radio" id="fdeskstaff" name="role" value="staff" required>
+            <label for="fdeskstaff">Front Desk Staff</label>
           </div>
         </div>
 
@@ -92,7 +92,7 @@
         </div>
     
 
-        <button type="submit" class="button2">SIGN UP</button>
+        <button type="submit" class="button2" name="action" value="signup">SIGN UP</button>
         
       </form>
     </div>

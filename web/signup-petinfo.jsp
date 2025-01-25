@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Signup Page - Pet Information</title>
+  <title>Sign Up Page - Pet Information</title>
   <link rel="stylesheet" href="css/signup-petinfo.css">
   <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chelsea+Market">
@@ -37,7 +37,7 @@
       <p>Your pet's care starts here!</p>
       
       <div class="form">
-      <form action="#" method="POST">
+      <form action="SignUpPetOwnerServlet" method="POST">
 
         <div class = "form-row">
         <div class="form-group">
@@ -47,9 +47,9 @@
         <div class="radio">
             <label>Gender*</label>
             <div class="radio-group">
-              <input type="radio" id="male" name="male" value="male" required>
+              <input type="radio" id="male" name="gender" value="male" required>
               <label for="male">Male</label>
-              <input type="radio" id="female" name="female" value="female" required>
+              <input type="radio" id="female" name="gender" value="female" required>
               <label for="female">Female</label>
             </div>
           </div>
@@ -68,7 +68,7 @@
 
         <div class="form-group">
           <label for="birthdate">Birthday (Optional)</label>
-          <input type="date" id="birthdate" name="birthdate" required>
+          <input type="date" id="birthdate" name="birthdate">
         </div>
 
         <div class="form-group captcha">
@@ -80,8 +80,8 @@
         </div>
 
         <div class = "button-group">
-        <button type="submit" class="button2">BACK</button>
-        <button type="submit" class="button3">SIGN UP</button>
+        <button type="button" class="button2" onclick="window.history.back()">BACK</button>
+        <button type="submit" class="button3" name="action" value="signup">SIGN UP</button>
         </div>
         
       </form>

@@ -32,7 +32,7 @@
 
       <p>Login to your account</p>
       
-      <form action="#" method="POST">
+      <form action="LoginServlet" method="POST">
 
         <div class="form-group">
           <label for="email">Email *</label>
