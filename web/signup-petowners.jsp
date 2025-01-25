@@ -37,7 +37,7 @@
       <p>Your pet's care starts here!</p>
       
       <div class = "form">
-      <form action="#" method="POST">
+      <form action="SignUpPetOwnerServlet" method="POST">
 
         <div class="form-row">
           <div class="form-group">
@@ -76,7 +76,7 @@
           <input type="confirmpassword" id="confirmpassword" name="confirmpassword" required>
         </div>
 
-        <button type="submit" class="nextbutton">NEXT</button>
+        <button type="submit" class="nextbutton" name="action" value="next">NEXT</button>
         
       </form>
     </div>
