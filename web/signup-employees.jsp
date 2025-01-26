@@ -86,7 +86,7 @@
         <div class="form-group captcha">
           <label for="captcha">Enter Captcha</label>
           <div class="captcha-container">
-            <span class="generated">AaZ312</span>
+            <img class="generated" src="SignUpEmployeeServlet" alt="CAPTCHA" id="captchaImage">
             <input type="text" id="captcha" name="captcha" class="input" required>
           </div>
         </div>

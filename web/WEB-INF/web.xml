@@ -3,62 +3,14 @@
     <servlet>
         <servlet-name>SignUpPetOwnerServlet</servlet-name>
         <servlet-class>servlet.SignUpPetOwnerServlet</servlet-class>
-        <init-param>
-            <param-name>dbDriver</param-name>
-            <param-value>com.mysql.cj.jdbc.Driver</param-value>
-        </init-param>
-        <init-param>
-            <param-name>dbUrl</param-name>
-            <param-value>jdbc:mysql://localhost:3306/khoclinic?useSSL=false</param-value>
-        </init-param>
-        <init-param>
-            <param-name>dbUsername</param-name>
-            <param-value>root</param-value>
-        </init-param>
-        <init-param>
-            <param-name>dbPassword</param-name>
-            <param-value>1234</param-value>
-        </init-param>
     </servlet>
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>servlet.LoginServlet</servlet-class>
-        <init-param>
-            <param-name>dbDriver</param-name>
-            <param-value>com.mysql.cj.jdbc.Driver</param-value>
-        </init-param>
-        <init-param>
-            <param-name>dbUrl</param-name>
-            <param-value>jdbc:mysql://localhost:3306/khoclinic?useSSL=false</param-value>
-        </init-param>
-        <init-param>
-            <param-name>dbUsername</param-name>
-            <param-value>root</param-value>
-        </init-param>
-        <init-param>
-            <param-name>dbPassword</param-name>
-            <param-value>1234</param-value>
-        </init-param>
     </servlet>
     <servlet>
         <servlet-name>SignUpEmployeeServlet</servlet-name>
         <servlet-class>servlet.SignUpEmployeeServlet</servlet-class>
-        <init-param>
-            <param-name>dbDriver</param-name>
-            <param-value>com.mysql.cj.jdbc.Driver</param-value>
-        </init-param>
-        <init-param>
-            <param-name>dbUrl</param-name>
-            <param-value>jdbc:mysql://localhost:3306/khoclinic?useSSL=false</param-value>
-        </init-param>
-        <init-param>
-            <param-name>dbUsername</param-name>
-            <param-value>root</param-value>
-        </init-param>
-        <init-param>
-            <param-name>dbPassword</param-name>
-            <param-value>1234</param-value>
-        </init-param>
     </servlet>
     <servlet-mapping>
         <servlet-name>SignUpPetOwnerServlet</servlet-name>
@@ -91,5 +43,25 @@
     <context-param>
         <param-name>encryptionSecretKey</param-name>
         <param-value>AES</param-value>
+    </context-param>
+    <context-param>
+        <param-name>captchaLength</param-name>
+        <param-value>4</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dbDriver</param-name>
+        <param-value>com.mysql.cj.jdbc.Driver</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dbUrl</param-name>
+        <param-value>jdbc:mysql://localhost:3306/khoclinic?useSSL=false</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dbUsername</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dbPassword</param-name>
+        <param-value>1234</param-value>
     </context-param>
 </web-app>
