@@ -75,7 +75,7 @@
     <h2>CONTACT US</h2>
     <div class="map-place">
       <div class="google-map">
-        <iframe 
+       <iframe 
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.8611940740166!2d120.990829974573!3d14.606981976921476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c93d5079b1dd%3A0xb6c4b4365ca4cb2d!2sKho%20Veterinary%20Clinic!5e0!3m2!1sen!2sph!4v1737052687426!5m2!1sen!2sph" 
           width="640" 
           height="400" 
@@ -115,4 +115,4 @@
     <p>&copy; 2024 Kho Veterinary Clinic. All rights reserved.</p>
   </footer>
 </body>
-</html>
+
